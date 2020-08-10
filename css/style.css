@@ -62,7 +62,7 @@ header{
 .parent-journey{
 	display: flex;
 	justify-content: space-between;
-	padding:80px 40px;
+	padding:80px 3%;
 }
 .parent-journey:hover{
 	cursor: grab;
