@@ -1,0 +1,106 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Inter', sans-serif;
+}
+header{
+	height: 100vh;
+	background: url(../img/banner.jpg);
+	background-size: cover;
+}
+
+/*header nav links*/
+.parent-nav{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 0;
+}
+/*container for logo and links*/
+.left, .right{
+	display: flex;
+	align-items: center;
+	margin: 0 40px;
+}
+/*makins links inline*/
+.links-left li{
+	display: inline-block;
+	color: red;
+}
+.links-left li a{
+	margin-left: 30px;
+}
+.links-right li a{
+	margin-right: 30px;
+}
+.links-left li a, .links-right li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 13px;
+}
+.fas{
+	color: white;
+}
+/*logo inline*/
+.logo{
+	display: inline-block;
+}
+.left{
+	margin-left: 30px;
+}
+.left h1{
+	font-size: 25px;
+	font-family: 'Inter', sans-serif;
+	font-weight: 800;
+	color: white;
+}
+.links-right li {
+	display: inline-block;
+}
+
+/*journey section*/
+.parent-journey{
+	display: flex;
+	justify-content: space-between;
+	padding:80px 40px;
+}
+.parent-journey:hover{
+	cursor: grab;
+}
+.square{
+	height: 286px;
+	width: 286px;
+	background-color: #00cbff;
+}
+.caption{
+	margin: 20px 0;
+	font-size: 14px;
+	line-height: 1.8;
+}
+#child-1{
+	background: url(../img/img-1.jpg);
+	background-size: cover;
+}
+#child-2{
+	background:url(../img/img-2.jpg);
+	background-size: cover;
+}
+#child-3{
+	background:url(../img/img-3.jpg);
+	background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
