@@ -1,0 +1,106 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Archivo', sans-serif;
+}
+header{
+	height: 100vh;
+	background-color: #bae9fd;
+	//background:url(../img/banner.jpg);
+	background-size: cover;
+	background-position: center;
+}
+/*nav bar*/
+.navigation{
+	display: flex;
+	justify-content: space-between;
+	border:1px solid red;
+	padding: 30px;
+	position: relative;
+	z-index: 1000;
+	width: 100vw;
+}
+.nav-left, .nav-right{
+	display: flex;
+	align-items: center;
+}
+.nav-left button{
+	margin-left: 20px;	
+}
+.nav-right button{
+	margin-right: 20px;
+}
+.nav-left button, .nav-right button{
+	padding: 10px;
+	border:none;
+	background-color: transparent;
+	font-size: 13px;
+	color: white;
+}
+.nav-left h1, .nav-right a{
+	color: white;
+}
+/*dropdown-1*/
+.dropdown-1{
+	border:1px solid green;
+}
+.dropdown-content{
+	position: absolute;
+	display: flex;
+	align-items: center;
+	height: 500px;
+	width: 99vw;
+	left: 50%;
+	top: 10px;
+	transform: translate(-50%);
+	justify-content: space-around;
+	background-color: #cca0e5;
+	z-index: -1;
+	display: none;
+}.square{
+	width: 300px;
+	height: 260px;
+}
+.sections h4{
+	margin-top: 10px;
+}
+/*square photos*/
+#men{
+	background: url(../img/men.jpg);
+	background-size: cover;
+	background-position: center;
+}
+#women{
+	background: url(../img/women.jpg);
+	background-size: cover;
+	background-position: center;
+}
+#shades{
+	background: url(../img/36.jpg);
+	background-size: cover;
+	background-position: center;
+}
+/*hidden square*/
+#hidden, .hidden{
+	visibility: hidden;
+}
+/*hovering*/
+.nav-left h1:hover, .nav-left button:hover{
+	cursor: pointer;
+}
+/*drodown hover*/
+.dropdown-1:hover .dropdown-content{
+	display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
