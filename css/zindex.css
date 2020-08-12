@@ -129,6 +129,7 @@ header{
 .dropdown-1:hover ~ .btn{
 	color: black;
 }
+/*hovering for replacement black labels*/
 .dropdown-1:hover .logo-black h1{
 	display: block;
 }
