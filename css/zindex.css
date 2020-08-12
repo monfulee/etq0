@@ -7,7 +7,7 @@
 header{
 	height: 100vh;
 	background-color: #bae9fd;
-	//background:url(../img/banner.jpg);
+	background:url(../img/banner.jpg);
 	background-size: cover;
 	background-position: center;
 }
@@ -15,7 +15,6 @@ header{
 .navigation{
 	display: flex;
 	justify-content: space-between;
-	border:1px solid red;
 	padding: 30px;
 	position: relative;
 	z-index: 1000;
@@ -42,9 +41,6 @@ header{
 	color: white;
 }
 /*dropdown-1*/
-.dropdown-1{
-	border:1px solid green;
-}
 .dropdown-content{
 	position: absolute;
 	display: flex;
@@ -55,7 +51,7 @@ header{
 	top: 10px;
 	transform: translate(-50%);
 	justify-content: space-around;
-	background-color: #cca0e5;
+	background-color: #fff;
 	z-index: -1;
 	display: none;
 }.square{
@@ -64,6 +60,30 @@ header{
 }
 .sections h4{
 	margin-top: 10px;
+}
+/*ETQ black*/
+.logo-black h1{
+	position: absolute;
+	left: 30px;
+	color: #000;
+	top: 34px;
+	display: none;
+}
+/*nav-right black*/
+.nav-right-black{
+	position: absolute;
+	right: 30px;
+	top: 30px;
+	align-items: center;
+	display: none;
+}
+.nav-right-black button{
+	margin: 0 16px 0 0;
+	color: black;
+}
+.nav-right-black a{
+	font-size: 15px;
+	color: black;
 }
 /*square photos*/
 #men{
@@ -89,9 +109,31 @@ header{
 .nav-left h1:hover, .nav-left button:hover{
 	cursor: pointer;
 }
+.dropdown-content:hover{
+	cursor: pointer;
+}
+.btn:hover{
+	text-decoration: underline;
+}
+.sections:hover > h4{
+	text-decoration: underline;
+}
 /*drodown hover*/
 .dropdown-1:hover .dropdown-content{
 	display: flex;
+}
+/*hover color change*/
+.dropdown-1:hover > .btn{
+	color: black;
+}
+.dropdown-1:hover ~ .btn{
+	color: black;
+}
+.dropdown-1:hover .logo-black h1{
+	display: block;
+}
+.dropdown-1:hover .nav-right-black{
+	display: block;
 }
 
 
