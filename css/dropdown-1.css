@@ -1,0 +1,113 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Archivo', sans-serif;
+}
+
+.nav-bar{
+	display: flex;
+	align-items: center;
+	padding: 15px;
+}
+header{
+	height: 100vh;
+	//background:url(../img/banner.jpg);
+	background-size: cover;
+	background-color: #bae9fd;
+}
+
+header h1, button{
+	margin-right: 20px;
+}
+header h1{
+	color: #fff;
+}
+.btn{
+	background-color: transparent;
+	padding: 10px;
+	font-size: 14px;
+	border:none;
+	color: white;
+	z-index: 5;
+}
+
+.nav-bar{
+	position: relative;
+	border:1px solid black;
+}
+.dropdown{
+	border:1px solid yellow;
+}
+.dropdown-content{
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	height: 400px;
+	width: 98vw;
+	left: 50%;
+	top: 0;
+	transform: translate(-50%);
+	background-color: gray;
+	z-index: 1;
+	cursor: pointer;
+}
+.dropdown h1{
+	position: absolute;
+	left: 15px;
+	color: #000;
+	display: none;
+	z-index: 2;
+}
+
+.dropdown:hover h1{
+	display: block;
+}
+.dropdown-content-1{
+	display: none;
+}
+.dropdown:hover > .dropdown-content-1{
+	display: block;
+}
+.dropdown button:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+.drop-sections{
+	padding: 5px;
+}
+.drop-sections h4{
+	margin-top: 15px;
+	font-size: 15px;
+}
+#square-1, #square-2, #square-3, #square-4{
+	height: 200px;
+	width:240px;
+}
+#square-1{
+	background: url(../img/men.jpg);
+	background-size: cover;
+	background-position: center;
+}
+#square-2{
+	background:url(../img/women.jpg);
+	background-size: cover;
+	background-position: center;
+}
+#square-3{
+	background:url(../img/36.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.drop-sections-hide{
+	visibility: hidden;
+}
+
+
+
+
+
+
+
+
